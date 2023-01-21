@@ -12,6 +12,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/resposivo.css">
+
     <title>Super Mario Bros - O Filme</title>
   </head>
   <body>
@@ -31,8 +35,8 @@
       </a>
       <nav>
         <ul class="menu">
-          <li>Homee</li>
-          <li>Detalhes</li>
+          <li><a href="#"> Home </a></li>
+          <li><a href="#"> Detalhes </a></li>
         </ul>
       </nav>
     </header>
@@ -52,6 +56,23 @@
         <button class="botao-trailer">Veja o trailer</button>
       </div>
       <img src="./src/imagens/super-mario-chars.png" alt="" class="mario" />
+
+      <div class="modal">
+        <div class="conteudo-modal">
+          <span class="fechar-modal">X</span>
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</main>
+
+		<script src="./src/js/index.js"></script>
+	</body>
+</html>
+
+
+        </div>
+
+      </div>
     </main>
   </body>
 </html>
